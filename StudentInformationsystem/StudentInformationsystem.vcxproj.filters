@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{bbb1138f-8c3c-42bd-89fb-0af9426811a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libgraphics\boolean.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\exception.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\extgraph.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\gcalloc.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\genlib.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\graphics.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\linkedlist.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\random.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\simpio.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\strlib.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleGUI\imgui.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\hanoi.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="admin.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicLib.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myTime.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="register.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="teacher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stu.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="simpleGUI\imgui.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\exceptio.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\genlib.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\graphics.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\linkedlist.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\random.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\simpio.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\strlib.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\hanoi.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\move.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\draw.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="adminMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adminProcessClass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adminProcessRequest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="login.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myTime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="register.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="teaMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="teaRequest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stuRequest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stuMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="teaProcessStu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
